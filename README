@@ -1,0 +1,33 @@
+Written in C# and based on the .NET 4.0 framework.
+
+SiriusSpotify was developed to help generate Spotify playlists
+based on songs selected by Sirius radio channel Program Directors.
+
+The software incorporates song lists from dogstarradio.com and uses
+the Spotify API to generate playlists based on the chosen channel and date.
+
+SiriusSpotify will grab each song in the dogstarradio channel list, perform
+a search, sort the results based on popularity, and add the most popular song
+to its respective channel playlist.
+
+As an example of what this application can output -
+The following Spotify playlists are generated nightly using this tool and is based
+on the previous day's Sirius song list:
+
+-Octane (37) Daily - http://open.spotify.com/user/bboerst/playlist/3fcC3vIjqOw1YJR95Q0ih5
+-Lithium (34) Daily - http://open.spotify.com/user/bboerst/playlist/4v79sQsoI2OfvdI6YY07y0
+-BPM (51) Daily - http://open.spotify.com/user/bboerst/playlist/3lHeUKE6AU1z95xOgwyg3j
+-Shade 45 (45) Daily - http://open.spotify.com/user/bboerst/playlist/1PBfgPWAIzgs9sij7IkBAN
+-SiriusXM Hits 1 (2) Daily - http://open.spotify.com/user/bboerst/playlist/3GZBDZJB8PmzLyZaLF2uJQ
+-80s on 8 (8) Daily - http://open.spotify.com/user/bboerst/playlist/0A1aHMg4kbbf0KBGBb0fWq
+-90s on 9 (9) Daily - http://open.spotify.com/user/bboerst/playlist/7FzXL0THIqrk5THUJ8O4LP
+-Classic Rewind (25) Daily - http://open.spotify.com/user/bboerst/playlist/1WadpP4P6nrhFurFnMBsOs
+-Classic Vinyl (26) Daily - http://open.spotify.com/user/bboerst/playlist/6ItLa0MWcwfM8nSvIxiWhc
+-Alt Nation (36) Daily - http://open.spotify.com/user/bboerst/playlist/64j1yp1MiBZJjVcqv0EjAl
+-Liquid Metal (40) Daily - http://open.spotify.com/user/bboerst/playlist/5L4t40qifab9xDvl1R1XAu
+-Faction (41) Daily - http://open.spotify.com/user/bboerst/playlist/66Kv7FH16AJWjm3MHJ8Z3l
+-Hip-Hop Nation (44) Daily - http://open.spotify.com/user/bboerst/playlist/3gGYpaCNy7RmUqKUpAOLFY
+-BackSpin (46) Daily - http://open.spotify.com/user/bboerst/playlist/2mHohaFLquS5UI38XtpbpX
+-The Pulse (10) Daily - http://open.spotify.com/user/bboerst/playlist/6tNrNEOZB09O4Otpvt57W7
+-Hair Nation (39) Daily - http://open.spotify.com/user/bboerst/playlist/72Y3m7UshaetTnmfo4FxA1
+-Electric Area (52) Daily - http://open.spotify.com/user/bboerst/playlist/1fpH1OjxJNtFIke6zpssmi
